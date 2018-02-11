@@ -9,13 +9,15 @@
 
 #ADD SERVER USER (passenger)
 
-	$	mkdir -[]
-	$	
-	$	
-	$	
-	$	
-	$	
-	$	
+	$	mkdir -p /home/passenger/.ssh
+	$	cp /root/.ssh/authorized_keys /home/passenger/.ssh/
+	$	useradd -d /home/passenger passenger
+	$	usermod -aG sudo passenger
+	$	chown -R passenger:passenger /home/passenger/
+	$	chown root:root /home/passenger/
+	$	chmod 700 /home/passenger/.ssh
+	$	chmod 644 /home/passenger/.ssh/authroized_keys
+	$	passwd passenger
 
 
 
