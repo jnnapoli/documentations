@@ -1,3 +1,8 @@
+Drifting Ruby Vid
+https://www.driftingruby.com/episodes/production-deployment-on-ubuntu
+
+
+
 #UPDATE UBUNTU AND THE THINGS
 
 	sudo apt-get update && sudo apt-get upgrade -y
