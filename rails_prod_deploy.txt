@@ -53,7 +53,7 @@ https://www.driftingruby.com/episodes/production-deployment-on-ubuntu
 
 #GET PRODUCTION SECRET AND DO THE NEXT THING
 
-     $ bundle exect rake secret
+     $ bundle exec rake secret
 
 
 
