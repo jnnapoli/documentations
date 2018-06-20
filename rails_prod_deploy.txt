@@ -20,7 +20,7 @@ https://www.driftingruby.com/episodes/production-deployment-on-ubuntu
 	$	usermod -aG sudo passenger
 	$	chown -R passenger:passenger /home/passenger/
 	$	chmod 700 /home/passenger/.ssh
-	$	chmod 644 /home/passenger/.ssh/authroized_keys
+	$	chmod 644 /home/passenger/.ssh/authorized_keys
 	$	passwd passenger
 
 
